@@ -26,6 +26,7 @@ Partial Class FormularioRama2
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -61,11 +62,21 @@ Partial Class FormularioRama2
         Me.ComboBox2.Size = New System.Drawing.Size(62, 24)
         Me.ComboBox2.TabIndex = 3
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(178, 109)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'FormularioRama2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(282, 253)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.ComboBox1)
@@ -80,4 +91,5 @@ Partial Class FormularioRama2
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents CheckedListBox1 As CheckedListBox
     Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Button2 As Button
 End Class
